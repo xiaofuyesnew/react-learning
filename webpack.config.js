@@ -15,7 +15,7 @@ module.exports = {
                 loader: 'babel-loader'//loader的名称（必须）
             }
         ]
-    },
+    },/*/
 
     devServer: {
         contentBase: './build',//默认webpack-dev-server会为根文件夹提供本地服务器，如果想为另外一个目录下的文件提供本地服务器，应该在这里设置其所在目录（本例设置到"build"目录）
@@ -24,5 +24,5 @@ module.exports = {
         //inline: true,//设置为true，当源文件改变时会自动刷新页面
         port: 8080,//设置默认监听端口，如果省略，默认为"8080"
         //process: true,//显示合并代码进度
-    }
+    }//*/
 }

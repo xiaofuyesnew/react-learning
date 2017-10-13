@@ -3,7 +3,9 @@ const React = require('react')
 class ComponetTest extends React.Component {
     render() {
         return (
-            <div data-test="test">Hello World!</div>
+            <div className="main">
+                <div data-test="testxxx">Hello World!</div>
+            </div>
         )
     }
 }
