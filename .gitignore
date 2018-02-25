@@ -2,4 +2,7 @@
 node_modules
 
 #dist
-dist/bundle.js
+dist
+
+#build
+build
