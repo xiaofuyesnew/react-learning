@@ -1,23 +1,8 @@
 {
   "name": "react-learning",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xiaofuyesnew/react-learning.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/xiaofuyesnew/react-learning/issues"
-  },
-  "homepage": "https://github.com/xiaofuyesnew/react-learning#readme",
-  "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
-  }
+  "repository": "git@github.com:xiaofuyesnew/react-learning.git",
+  "author": "xiaofuyesnew <xiaofuyesnew@qq.com>",
+  "license": "MIT"
 }
