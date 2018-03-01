@@ -218,7 +218,7 @@ async@^1.5.0, async@^1.5.2:
   version "1.5.2"
   resolved "http://registry.npm.taobao.org/async/download/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
 
-async@^2.0.0, async@^2.1.2:
+async@^2.0.0:
   version "2.6.0"
   resolved "http://registry.npm.taobao.org/async/download/async-2.6.0.tgz#61a29abb6fcc026fea77e56d1c6ec53a795951f4"
   dependencies:
@@ -1260,7 +1260,7 @@ chardet@^0.4.0:
   version "0.4.2"
   resolved "http://registry.npm.taobao.org/chardet/download/chardet-0.4.2.tgz#b5473b33dc97c424e5d98dc87d55d4d8a29c8bf2"
 
-chokidar@^1.6.1, chokidar@^1.7.0:
+chokidar@^1.6.1:
   version "1.7.0"
   resolved "http://registry.npm.taobao.org/chokidar/download/chokidar-1.7.0.tgz#798e689778151c8076b4b360e5edd28cda2bb468"
   dependencies:
@@ -1275,7 +1275,7 @@ chokidar@^1.6.1, chokidar@^1.7.0:
   optionalDependencies:
     fsevents "^1.0.0"
 
-chokidar@^2.0.0:
+chokidar@^2.0.0, chokidar@^2.0.2:
   version "2.0.2"
   resolved "http://registry.npm.taobao.org/chokidar/download/chokidar-2.0.2.tgz#4dc65139eeb2714977735b6a35d06e97b494dfd7"
   dependencies:
@@ -2735,17 +2735,6 @@ html-minifier@^3.2.3:
     param-case "2.1.x"
     relateurl "0.2.x"
     uglify-js "3.3.x"
-
-html-webpack-plugin@^2.30.1:
-  version "2.30.1"
-  resolved "http://registry.npm.taobao.org/html-webpack-plugin/download/html-webpack-plugin-2.30.1.tgz#7f9c421b7ea91ec460f56527d78df484ee7537d5"
-  dependencies:
-    bluebird "^3.4.7"
-    html-minifier "^3.2.3"
-    loader-utils "^0.2.16"
-    lodash "^4.17.3"
-    pretty-error "^2.0.2"
-    toposort "^1.0.0"
 
 html-webpack-plugin@webpack-contrib/html-webpack-plugin:
   version "2.30.1"
@@ -4262,8 +4251,8 @@ preserve@^0.2.0:
   resolved "http://registry.npm.taobao.org/preserve/download/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
 prettier@^1.5.3:
-  version "1.11.0"
-  resolved "http://registry.npm.taobao.org/prettier/download/prettier-1.11.0.tgz#c024f70cab158c993f50fc0c25ffe738cb8b0f85"
+  version "1.11.1"
+  resolved "http://registry.npm.taobao.org/prettier/download/prettier-1.11.1.tgz#61e43fc4cd44e68f2b0dfc2c38cd4bb0fccdcc75"
 
 pretty-bytes@^4.0.2:
   version "4.0.2"
@@ -5678,12 +5667,12 @@ vm-browserify@0.0.4:
     indexof "0.0.1"
 
 watchpack@^1.4.0:
-  version "1.4.0"
-  resolved "http://registry.npm.taobao.org/watchpack/download/watchpack-1.4.0.tgz#4a1472bcbb952bd0a9bb4036801f954dfb39faac"
+  version "1.5.0"
+  resolved "http://registry.npm.taobao.org/watchpack/download/watchpack-1.5.0.tgz#231e783af830a22f8966f65c4c4bacc814072eed"
   dependencies:
-    async "^2.1.2"
-    chokidar "^1.7.0"
+    chokidar "^2.0.2"
     graceful-fs "^4.1.2"
+    neo-async "^2.5.0"
 
 wbuf@^1.1.0, wbuf@^1.7.2:
   version "1.7.2"
